@@ -4,11 +4,11 @@
 
 ## 使用入口
 
-- [SKILL.md](SKILL.md)：操作步骤、专业纠错、信息完整性、写作和 Word 交付标准。
+- [SKILL.md](SKILL.md)：操作步骤、专业纠错、信息完整性、写作及 Markdown 默认交付规范。
 - [openspec/config.yaml](openspec/config.yaml)：OpenSpec 项目约束。
 - [openspec/specs/meeting-minutes/spec.md](openspec/specs/meeting-minutes/spec.md)：规范要求及 WHEN/THEN 验收场景。
 - [references/quality-checklist.md](references/quality-checklist.md)：交付前逐项检查。
-- [templates/meeting-minutes.md](templates/meeting-minutes.md)：两层结构的内部空白写作模板（仅作模板，不代表最终交付 `.md` 文件）。
+- [templates/meeting-minutes.md](templates/meeting-minutes.md)：两层结构的 Markdown 空白写作模板。
 
 ## 工作方式
 
@@ -16,7 +16,7 @@
 2. 读取 [SKILL.md](SKILL.md)；按主题建立覆盖底稿，核对所有关键数字、专业术语及项目进度。
 3. 生成“核心要点”（默认不超过 **5** 条）和“详细纪要”（默认不超过 **9** 节）。数量上限**不等于删减细节**。
 4. 只整理用户指定材料，不自行补充年报、网络数据、投资观点或“注意事项”。用直接的结论式自然段，**最终纪要不出现“管理层”一词**，也不保留问答、口语或“公司认为/公司表示/交流中提到”等转述套话。
-5. **默认直接交付 Word（`.docx`）**：无论用户是否特别说明格式，都生成实际 Word 文件，使用全黑字体、无段首方点，核验内容与排版后提供下载链接；**不同时提供 `.md` 文件或 Markdown 下载链接**。只有用户明确要求其他格式或纯文字时例外。
+5. **默认直接交付 Markdown（`.md`）**：无论用户是否特别说明格式，都生成完整的 UTF-8 Markdown 文件，经内容完整性检查后提供 `.md` 下载链接；不同时提供 Word、PDF 等格式。只有用户明确要求 Word、其他格式或纯文字时例外；要求 Word 时仍按规范执行字体和排版检查。
 
 ## 范围和边界
 
@@ -26,4 +26,4 @@
 
 ## 规范版本
 
-v1.1.0｜2026-10-30（默认 Word 单文件交付）
+v1.2.0｜2026-10-30（恢复 Markdown 默认单文件交付）
